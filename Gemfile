@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.22.2'
-gem 'ruby', '2.2.2'
 
 gem 'sass-rails',           '>= 3.0.0'
 gem 'uglifier',             '2.5.3'
@@ -11,6 +10,7 @@ gem 'turbolinks',           '2.3.0'
 gem 'jbuilder',             '2.2.3'
 gem 'rdoc',                 '~> 3.4'
 gem 'sdoc',                 '0.3.0', group: :doc
+gem 'test-unit', '~> 3.0'
 
 group :development, :test do
   gem 'sqlite3',     '1.3.9'
