@@ -11,6 +11,7 @@ gem 'jbuilder',             '2.2.3'
 gem 'rdoc',                 '~> 3.4'
 gem 'sdoc',                 '0.3.0', group: :doc
 gem 'test-unit', '~> 3.0'
+gem 'strong_parameters'
 
 group :development, :test do
   gem 'sqlite3',     '1.3.9'
